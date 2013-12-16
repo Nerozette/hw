@@ -1,0 +1,78 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+
+    Document   : index
+    Author     : ©Nerozette
+    Created on : 2013
+    School:    : Arabská
+
+Description:
+The homepage of the site with nothing but two images;
+the first image is a simple black sphere, whilst the 
+other one is essentially the same but with a sitemap
+and some effects. As soon as one hovers over the first
+image, it renders itself invisible, thus showing the
+image underneath. A simple, yet very effective usage of
+a piece of a code I found here:
+http://css3.bradshawenterprises.com/cfimg/
+
+There's a menu with four categories (technically three)
+on the top. The access to the homepage (though quite
+unnecessary) is provided by the ©Nerozette link in the
+lower left corner of the page.
+
+All of the images were formerly something like
+http://placekitten.com/200/200, but I downloaded them
+just to make sure.
+
+The faulty attempt to use Javascript was inspired by:
+http://jsfiddle.net/jlratwil/w83BW/
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Nerozette: Home</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="first.css">
+        <link href='http://fonts.googleapis.com/css?family=Carrois+Gothic+SC' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <div id="header">
+        </div>
+        <table id="table">
+            <tr>
+            <td><a href="aboutme.html">About me</a>
+            <td><pre>  |  </pre>
+            <td><a href="interests.html">Interests</a>
+            <td><pre>  |  </pre>
+            <td><a href="music.html">Music</a>
+            <td><pre>  |  </pre>
+            <td><a href="https://dl.dropboxusercontent.com/s/t3b0wkti7m4doqh/hyuuga_clan_by_pruzjinka-d3509tz.png?dl=1&token_hash=AAFk4DJzPQXhmgDeLyehCyV51Gol_DtYfJ8ydl3OSHh3wQ">Download</a>
+                </tr>
+        </table>
+        <div id="Hov">
+            <img class="bottom" src="spherehov.png">
+ <div id="sitemap">
+            <a href="aboutme.html">About me</a>
+            <br>
+            <a href="interests.html">Interests</a>
+            <br>
+            <a href="music.html">Music</a>
+            <br>
+            <a href="https://dl.dropboxusercontent.com/s/t3b0wkti7m4doqh/hyuuga_clan_by_pruzjinka-d3509tz.png?dl=1&token_hash=AAFk4DJzPQXhmgDeLyehCyV51Gol_DtYfJ8ydl3OSHh3wQ">Download</a>
+        </div>
+            <img class="top" id="ho" src="sphere.png" onmouseover="">
+
+        </div>
+        <div id="author">
+            <a href="index.html">©Nerozette</a>
+        </div>
+    <script language="javascript" type="text/javascript">
+        $("#ho").one("mouseover", function() {
+  $("#ho img").addClass("permahover");
+});
+    </script>
+    </body>
+</html>
+

@@ -1,0 +1,169 @@
+/* 
+    Document   : first
+    Created on : 2013
+    Author     : ©Nerozette
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+#author {
+    font-family: 'Carrois Gothic SC', sans-serif;
+    font-variant: small-caps;
+    position: fixed;
+    top: 97%;
+}
+
+#Hov {
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    left: 50%;
+    margin-left: -250px;
+    top: 25%;
+}
+
+#Hov img {
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px;
+    margin-left: -250px;
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
+}
+
+#Hov img.top:hover{ 
+    opacity:0;
+}
+
+#table {
+    font-family: 'Carrois Gothic SC', sans-serif;
+    font-weight: bold;
+    font-variant: small-caps;
+    margin: auto;
+    color: #707070;
+    left: 50%;
+    position: fixed;
+    width: 500px;
+    margin-left: -240px;
+    z-index: 2;
+}
+
+#a {
+    color: white;
+}
+#a:hover {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: #d0d0d0;
+}
+a:hover {
+    color: white;
+}
+
+body {
+    background-color: white;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    width: 500px;
+}
+
+#header {
+    background-color: black;
+    background-image: url("header.jpg");
+    position: fixed;
+    background-size: 100%;
+    background-attachment: fixed;
+    margin-left: -10px;
+    margin-top: -10px;
+    z-index: 1;
+}
+
+#one {
+    position: absolute;
+    width: 270px;
+    height: 30px;
+    overflow: hidden;
+    left: 45%;
+    margin-top: -25px;
+}
+
+#two{
+    position: absolute;
+    top: -270px;
+    left: -5px;
+}
+
+#paragraph {
+    font-family: 'Carrois Gothic SC', sans-serif;
+    text-align: justify;
+    font-variant: small-caps;
+    width: 500px;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    margin-left: -250px;
+}
+
+iframe {
+    width: 300px;
+    height: 300px;
+}
+
+#catleft {
+    float: left;
+    margin: 0 10px 0 0;
+    border: 1px solid;
+}
+
+#catright {
+    float: right;
+    margin: 0 0 0 10px;
+    border: 1px solid;
+}
+
+#interestvideo {
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    margin-left: -250px;
+    border: 1px solid;
+}
+
+#chart {
+    position: absolute;
+    top: 7%;
+    border: 1px solid black;
+    width: 200px;
+    font-family: 'Carrois Gothic SC', sans-serif;
+    font-variant: small-caps;
+    color: #d0d0d0;
+    background-image: url("tableback.jpg");
+    background-size: 100%;
+    background-color: black;
+}
+
+h1 {
+    font-family: 'Carrois Gothic SC', sans-serif;
+    font-variant: small-caps;
+    font-size: 30px;
+}
+h2 {
+    font-family: 'Carrois Gothic SC', sans-serif;
+    font-variant: small-caps;
+    font-size: 20px;
+}

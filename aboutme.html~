@@ -1,0 +1,102 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+
+    Document   : home
+    Author     : ©Nerozette
+    Created on : 2013
+    School:    : Arabská
+ 
+Description:
+A page about the author. I've included some information
+about myself, but given my unwillingness to share personal
+information in this manner, that's it, the rest is good ol'
+lorem ipsum.
+
+The information about me is fashioned in a way of a table.
+Other than that, there's nothing noteworthy about this 
+particular document.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Nerozette: About me</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="first.css">
+        <link href='http://fonts.googleapis.com/css?family=Carrois+Gothic+SC' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <div id="header">
+            <img src="header.jpg" />
+        </div>
+        <table id="table">
+            <thead>
+            <td>About me
+            <td><pre>  |  </pre>
+            <td><a href="interests.html">Interests</a>
+            <td><pre>  |  </pre>
+            <td><a href="music.html">Music</a>
+            <td><pre>  |  </pre>
+            <td><a href="adinfo.html">Download</a>
+                </thead>
+        </table>
+        <div id="paragraph">
+            <p>
+            <h1>Headline#1</h1>
+            <table id="chart">
+            <tr>
+                <td><b>Name</b></td>
+                <td>John</td>
+            </tr>
+            <tr>
+                <td><b>Age</b></td>
+                <td>17</td>
+            </tr>
+            <tr>
+                <td><b>School</b></td>
+                <td>Arabská</td>
+            </tr>
+            <tr>
+                <td><b>Gender</b></td>
+                <td>Male</td>
+            </tr>
+            <tr>
+                <td><b>Country</b></td>
+                <td>Czech Republic</td>
+            </tr>
+            <tr>
+                <td><b>Hungry</b></td>
+                <td>Indeed</td>
+            </tr>
+        </table>
+            <img id="catleft" src="http://placekitten.com/197/120" style="visibility: hidden">
+            Donec aliquet enim libero, in lobortis ligula lacinia et. Aenean 
+            risus quam, egestas quis accumsan nec, varius ac nisl. Pellentesque 
+            molestie congue scelerisque. Etiam lobortis pharetra odio, congue 
+            laoreet diam luctus eu. Curabitur tincidunt felis quis odio congue 
+            gravida. Ut eu massa dui. <br>
+            <br>
+            </p>
+            <h2>Headline#1.1</h2>
+            <img id="catleft" src="About1.jpg">
+            Aliquam ultricies consectetur odio, eu vehicula est volutpat sit 
+            amet. Nulla sed mauris non lectus egestas commodo at vestibulum sem. 
+            Nulla nec metus vel urna condimentum condimentum in imperdiet neque. 
+            Maecenas consectetur, dolor eu tincidunt commodo, nunc nulla feugiat 
+            dui, vitae accumsan est est vel arcu. Sed suscipit suscipit gravida. 
+            Phasellus quis semper mi, non blandit purus. Vestibulum interdum 
+            purus quis enim pellentesque, eu mattis ipsum ultricies.<br>
+            <br>
+            <img id="catright" src="About2.jpg">
+            Praesent 
+            non enim ipsum. Donec commodo orci vel diam pellentesque, in egestas 
+            ligula suscipit. Aliquam nec eros in enim cursus malesuada non at eros. 
+            Donec euismod ullamcorper sem nec ultrices.<br>
+            <br>
+            <img id="catright" src="About3.jpg">
+        </div>
+        <div id="author">
+            <a href="home.html">©Nerozette</a>
+        </div>
+    </body>
+</html>
